@@ -1,10 +1,8 @@
 :root {
     --primario: #9868dc;
     --blanco: #ffffff;
-
+    --fuentetitulos:'Young Serif', serif;  
     
-    /*youn serif titulos
-    texto relaway*/
 }
 
 * {
@@ -16,16 +14,27 @@ html{
 }
 body{
     font-size: 16px;/* 1 rem = 10px*/
+    font-family: 'Raleway', sans-serif;
 }
-h1 {
+h1,h2 {
     text-align: center;
     font-size: 3rem;
+    font-family: 'Young Serif', serif;
+}
 
+.contenedor {
+    width: 120rem;
+    margin: 0 auto;
 }
 
 .logo {
     width: 15rem;
     
+}
+/* Navegacion Principal */
+.navegacion-principal {
+    background-color: var(--primario);
+
 }
 
 
