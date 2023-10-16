@@ -1,0 +1,66 @@
+:root {
+    --primario: #9868dc;
+    --blanco: #ffffff;
+
+    
+    /*youn serif titulos
+    texto relaway*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size:62.5% ;
+}
+body{
+    font-size: 16px;/* 1 rem = 10px*/
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.logo {
+    width: 15rem;
+    
+}
+
+
+
+  /* terminos y condicones  */
+.contenedor-tercon {
+    margin: 10% 25%;
+    box-shadow: 15px 15px 25px 25px;
+    border-radius: 10px;
+}
+
+ .button-tercon{
+    margin-bottom:25px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+ }
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.popup {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
