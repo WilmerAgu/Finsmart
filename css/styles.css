@@ -237,3 +237,16 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #710c7e;
 }
+.boton-guardar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #710c7e;
+    color: #fff; 
+    text-decoration: none; 
+    border: 1px solid #710c7e; 
+    border-radius: 5px; 
+  }
+  
+  .boton-guardar:hover {
+    background-color: #710c7e; 
+  }
