@@ -4,59 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../Finsmart/css/Formulario.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="form-container">
-        <h1>Registro de Perfil Financiero</h1>
-        <form action="terminos_y_condiciones.html" method="post">
-            <div class="input-group">
-                <label for="nombre">Nombre Completo:</label>
-                <input type="text" id="nombre" name="nombre" required>
-            </div>
+    <section class="formulario">
 
-            <div class="input-group">
-                <label for="tipo_documento">Tipo de Documento:</label>
-                <select id="tipo_documento" name="tipo_documento" required>
-                    <option value="cc">Cédula de Ciudadanía</option>
-                    <option value="ce">Cédula de Extranjería</option>
-                    <option value="pasaporte">Pasaporte</option>
-                    <option value="ppt">Permiso de Protección Temporal</option>
-                </select>
-            </div>
-
-            <div class="input-group">
-                <label for="numero_documento">Número de Documento:</label>
-                <input type="text" id="numero_documento" name="numero_documento" required>
-            </div>
-
-            <div class="input-group">
-                <label for="telefono">Número Telefónico:</label>
-                <input type="tel" id="telefono" name="telefono" required>
-            </div>
-
-            <div class="input-group">
-                <label for="tipo_actividad">Tipo de Actividad:</label>
-                <select id="tipo_actividad" name="tipo_actividad" required>
-                    <option value="asalariado">Asalariado</option>
-                    <option value="independiente">Independiente</option>
-                    <option value="otros">Otros</option>
-                </select>
-            </div>
-
-            <div class="input-group">
-                <label for="rango_salarial">Rango Salarial:</label>
-                <select id="rango_salarial" name="rango_salarial" required>
-                    <option value="1-2">Entre 1 y 2 SMLV</option>
-                    <option value="3-4">Entre 3 y 4 SMLV</option>
-                    <option value="mas_de_4">Más de 4 SMLV</option>
-                </select>
-            </div>
-
-            <div class="input-group">
-                <input type="submit" value="Guardar Información">
-            </div>
-        </form>
-    </div>
+        <div class="form-container">
+            <h1>Registro de Perfil Financiero</h1>
+            <form action="terminos_y_condiciones.html" method="post">
+                <div class="input-group">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+    
+                <div class="input-group">
+                    <label for="tipo_documento">Tipo de Documento:</label>
+                    <select id="tipo_documento" name="tipo_documento" required>
+                        <option value="cc">Cédula de Ciudadanía</option>
+                        <option value="ce">Cédula de Extranjería</option>
+                        <option value="pasaporte">Pasaporte</option>
+                        <option value="ppt">Permiso de Protección Temporal</option>
+                    </select>
+                </div>
+    
+                <div class="input-group">
+                    <label for="numero_documento">Número de Documento:</label>
+                    <input type="text" id="numero_documento" name="numero_documento" required>
+                </div>
+    
+                <div class="input-group">
+                    <label for="telefono">Número Telefónico:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+    
+                <div class="input-group">
+                    <label for="tipo_actividad">Tipo de Actividad:</label>
+                    <select id="tipo_actividad" name="tipo_actividad" required>
+                        <option value="asalariado">Asalariado</option>
+                        <option value="independiente">Independiente</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                </div>
+    
+                <div class="input-group">
+                    <label for="rango_salarial">Rango Salarial:</label>
+                    <select id="rango_salarial" name="rango_salarial" required>
+                        <option value="1-2">Entre 1 y 2 SMLV</option>
+                        <option value="3-4">Entre 3 y 4 SMLV</option>
+                        <option value="mas_de_4">Más de 4 SMLV</option>
+                    </select>
+                </div>
+    
+                <div class="input-group">
+                    <input type="submit" value="Guardar Información">
+                </div>
+            </form>
+        </div>
+    </section>
 </body>
+<footer class="footer">
+    <p>Todos los derechos reservados, FinSmart</p>
+</footer>
 </html>
