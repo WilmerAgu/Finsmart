@@ -48,6 +48,10 @@ h1,h2,h3 {
     font-family: 'Young Serif', serif;
     text-align: center;
 }
+p {
+	font-family: var(--fuenteparrafos);
+	text-align: center;
+}
 
 
 
@@ -489,3 +493,4 @@ input[type="submit"]:hover {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
       }
+	   
