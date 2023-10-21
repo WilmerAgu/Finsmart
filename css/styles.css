@@ -250,11 +250,7 @@ input[type="submit"]:hover {
   .boton-guardar:hover {
     background-color: #710c7e;
   }
-  /*tipo de letra*/
-
-@import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
-
+ 
 /* Boton de empieza*/
 
 	input[type="button"],
