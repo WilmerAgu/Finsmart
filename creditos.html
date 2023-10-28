@@ -9,7 +9,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+  <script src="creditos.js"></script>
   <link rel="stylesheet" href="./css/styles.css">
+
  
 
 </head>
@@ -38,8 +40,8 @@
     <h2>CREDITOS</h2>
     <div class="servicios">
       <section class="servicio">
-        <h3>Vivienda</h3>
-        <div class="icono" >
+        <h3 >Vivienda</h3>
+        <div class="icono" id="openModalButton" >
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building-pavilion" width="60" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <path d="M3 21h7v-3a2 2 0 0 1 4 0v3h7" />
@@ -52,9 +54,9 @@
           placeat velit nemo exercitationem, excepturi atque cumque, distinctio, eveniet deserunt? Molestiae esse, 
           maxime vitae officia aut voluptatibus! hola</p>
       </section>
-      <!-- <div id="myModal" class="modal">
+      <div id="myModal" class="modal">
         <div class="modal-content">
-            <span class="close" id="closeModal">&times;</span>
+          <span class="close" id="closeModalButton">&times;</span>
             <form class="formulario"> 
               <div class="contenedor-campos">
                 <div class="campo">
@@ -88,25 +90,45 @@
               </div>
             </form>
         </div>
-    </div> -->
+    </div>
 
       <section class="servicio">
-        <h3>vehiculo</h3>
-        <div class="icono">
-          <a href="#" class="enlace abrir-modal" data-modal="vivienda">
+        <h3 >vehiculo</h3>
+        <div class="icono" id="openModalButtonVehiculo">         
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-car" width="60" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
             <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
             <path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" />
-          </svg>
-        </a>  
-        </div>
+          </svg>        
+        </div>        
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab ducimus impedit corrupti incidunt. Modi 
           recusandae nostrum aut, totam est sint sunt dolorem similique nesciunt. Nemo ut repellat quis deserunt 
           temporibus?</p>
-      </section> 
-     
+      </section>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeModalButton">&times;</span>
+            <form class="formulario"> 
+              <div class="contenedor-campos">
+                <div class="campo">
+                  <label for="economia">Acividad Económica</label>
+                  <input class="input-text" type="text">
+                </div>
+                <div class="campo">
+                  <label for="salario">Rango Salarial</label>
+                  <input class="input-text" type="text">
+                </div>
+                <div class="campo">
+                  <label for="salario">Tipo de Contrato</label>
+                  <input class="input-text" type="text">
+                </div>
+              </div>
+            </form>
+          </div>
+      </div>
+
+      
       <section class="servicio">
         <h3>Agropecuario</h3>
         <div class="icono">
@@ -159,7 +181,8 @@
  <footer class="footer">
   <p>Todos los derechos reservados, FinSmart</p>
  </footer>
- <script src="creditos.js" charset="UTF-8"></script>
+ <!-- <script src="creditos.js" charset="UTF-8"></script> -->
+ <script src="creditos.js"></script>
 </body>
 </html>
 
